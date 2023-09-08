@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
        	for (i = 1; i < argc; i++)
 	{
 	num1 = atoi(argv[1]);					       num2 = atoi(argv[2]);					      Multiple = num1 * num2;				
-	printf("Result is %d\n", Multiple);
+	printf("%d\n", Multiple);
 	}
         return (0);
 }
